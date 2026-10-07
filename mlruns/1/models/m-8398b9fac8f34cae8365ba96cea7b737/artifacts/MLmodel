@@ -1,0 +1,24 @@
+artifact_path: /Users/bertrandfillion/Library/CloudStorage/OneDrive-Personnel(2)/FORMATIONS/DATA-IA/IA/COURS/MLFLOW/mlflow-iris/mlruns/1/models/m-8398b9fac8f34cae8365ba96cea7b737/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.0
+model_id: m-8398b9fac8f34cae8365ba96cea7b737
+model_size_bytes: 1815989
+model_uuid: m-8398b9fac8f34cae8365ba96cea7b737
+prompts: null
+run_id: bf6b8d7877b1426d8d15740108a80864
+utc_time_created: '2026-10-07 14:45:43.331780'
