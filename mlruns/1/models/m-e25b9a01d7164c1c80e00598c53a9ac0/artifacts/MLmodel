@@ -1,4 +1,4 @@
-artifact_path: /Users/bertrandfillion/Library/CloudStorage/OneDrive-Personnel(2)/FORMATIONS/DATA-IA/IA/COURS/MLFLOW/mlflow-iris/mlruns/1/models/m-be1fb87fabbd42e68388364d4d84406c/artifacts
+artifact_path: /Users/bertrandfillion/Python Projects/mlflow/mlflow-iris/mlruns/1/models/m-e25b9a01d7164c1c80e00598c53a9ac0/artifacts
 flavors:
   python_function:
     env:
@@ -16,9 +16,9 @@ flavors:
     skops_trusted_types:
     - sklearn.tree._tree.Tree
 mlflow_version: 3.17.0
-model_id: m-be1fb87fabbd42e68388364d4d84406c
+model_id: m-e25b9a01d7164c1c80e00598c53a9ac0
 model_size_bytes: 197387
-model_uuid: m-be1fb87fabbd42e68388364d4d84406c
+model_uuid: m-e25b9a01d7164c1c80e00598c53a9ac0
 prompts: null
-run_id: ebd49b6248b545d98942f2c43eec81cf
-utc_time_created: '2026-10-07 15:31:14.760767'
+run_id: f9787f29787640d597649c5105cba521
+utc_time_created: '2026-10-18 20:15:43.595204'

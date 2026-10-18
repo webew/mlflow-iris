@@ -1402,8 +1402,10 @@ name = "mlflow-iris"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "fastapi" },
     { name = "mlflow" },
     { name = "scikit-learn" },
+    { name = "uvicorn" },
 ]
 
 [package.dev-dependencies]
@@ -1413,8 +1415,10 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "fastapi", specifier = ">=0.142.2" },
     { name = "mlflow", specifier = ">=3.17.0" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "uvicorn", specifier = ">=0.54.0" },
 ]
 
 [package.metadata.requires-dev]
